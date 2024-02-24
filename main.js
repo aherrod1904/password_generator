@@ -1,4 +1,4 @@
-import './sass/style.scss'
+import './style.scss'
 import PasswordCheck from './passwordCheck';
 import Toastify from 'toastify-js'
 import "toastify-js/src/toastify.css"
