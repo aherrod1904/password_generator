@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+  <title>Password generator</title>
+</head>
+<body>
+  <div class="generador">
+    <h1>Password Generator</h1>
+
+    <div class="generador__container">
+      <div class="generador__exit">
+        <span id="result" class="exit__result"></span>
+        <a href="#" class="exit__copy" id="copy"><img src="./images/icon-copy.svg" alt=""></a>
+      </div>
+      <div class="generador__checkbox">
+          <h3 class="checkbox__lenght">Character Length <span id="range_number"></span></h3>
+          <input id="range" class="checkbox__range" type="range" min="0" max="20">
+
+        <div class="checkbox__union">
+          <div class="checkbox__box">
+            <input class="check" type="checkbox" name="check" id="upper">
+            <label for="upper">Include Uppercase Letters</label>
+          </div>
+          <div class="checkbox__box">
+            <input class="check" type="checkbox" name="check" id="lower">
+            <label for="lower">Include Lowercase Letters</label>
+          </div>
+          <div class="checkbox__box">
+            <input class="check" type="checkbox" name="check" id="numbers">
+            <label for="numbers">Include Numbers</label>
+          </div>
+          <div class="checkbox__box">
+            <input class="check" type="checkbox" name="check" id="symbols">
+            <label for="symbols">Include Symbols</label>
+          </div>
+        </div>
+        
+        <div class="checkbox__strength">
+          <h3 class="strength__word">Strength</h3>
+          <label id="level" class="strength__level" for=""></label>
+          <div class="level__icons">
+            <div id="bar" class="icons icon1"></div>
+            <div class="icons"></div>
+            <div class="icons"></div>
+            <div class="icons"></div>
+          </div>
+        </div>
+        <button class="checkbox__button" id="generapass">Generate</button>
+      </div>
+    </div>
+  </div>
+  <script type="module" src="/main.js"></script>
+</body>
+</html>
