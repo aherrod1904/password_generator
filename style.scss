@@ -128,7 +128,7 @@ body{
             background-color: #A4FFAF;
             cursor: pointer;
             &::after{
-                content: url(../images/icon-arrow-right.svg);
+                content: url(./icon-arrow-right.svg);
                 position: relative;
                 margin-left: 20px;
             }

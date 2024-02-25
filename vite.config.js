@@ -1,6 +1,6 @@
 export default {
-    base: ``,
-    build: {
-      outDir: './docs'
-    }
+  base: ``,
+  build: {
+    outDir: './docs'
   }
+}

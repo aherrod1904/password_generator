@@ -1,13 +1,12 @@
-import './style.scss'
+import './style.scss';
 import PasswordCheck from './passwordCheck';
-import Toastify from 'toastify-js'
-import "toastify-js/src/toastify.css"
+import Toastify from 'toastify-js';
+import "toastify-js/src/toastify.css";
 
 
 let resultado = document.getElementById("result");
 let sizenumber = document.getElementById("range_number");
 let btn = document.getElementById("generapass");
-let genexit = document.getElementById("generador_exit");
 let copy = document.getElementById("copy");
 
 let range = document.getElementById("range");
