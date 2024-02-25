@@ -68,6 +68,7 @@ body{
             }
         }
         .checkbox__range::-webkit-slider-thumb{
+            -webkit-appearance: none;
             border-color: white;
             height: 23px;
             width: 23px;
