@@ -67,6 +67,18 @@ body{
                 border: 2px solid #A4FFAF;
             }
         }
+        .checkbox__range::-webkit-slider-thumb{
+            border-color: white;
+            height: 23px;
+            width: 23px;
+            border-radius: 50%;
+            background: #FFFFFF;
+            cursor: pointer;
+            &:hover{
+                background-color: #18171F;
+                border: 2px solid #A4FFAF;
+            }
+        }
 
 
         .checkbox__strength{
